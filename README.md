@@ -1,2 +1,2 @@
-# auth-example-nestjs
-Simple auth example with Nest.js
+## create db
+cat src/sql/schema.pg.sql | sudo -u root psql
