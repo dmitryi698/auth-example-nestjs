@@ -2,7 +2,7 @@ import { Controller, Post, Body, UnauthorizedException } from '@nestjs/common';
 
 import { AuthService } from './auth.service';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
-import { CreateUserDto } from '@modules/user/dto/create-user.dto';
+import { CreateUserDto } from '../modules/user/dto/create-user.dto';
 import { JwtDto } from './dto/jwt.dto';
 
 @ApiTags('Авторизация')
