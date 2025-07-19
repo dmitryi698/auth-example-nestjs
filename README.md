@@ -68,6 +68,7 @@ npm run start:prod
 ```bash
 # Unit-тесты
 npm run test
+```
 
 ## API Endpoints
 - **Аутентификация**:
